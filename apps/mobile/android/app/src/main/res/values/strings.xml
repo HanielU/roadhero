@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">RoadHero</string>
+    <string name="title_activity_main">RoadHero</string>
+    <string name="package_name">com.roadhero.app</string>
+    <string name="custom_url_scheme">com.roadhero.app</string>
+</resources>

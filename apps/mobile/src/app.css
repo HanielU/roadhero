@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  @apply select-none border-neutral-100;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+:root {
+  -webkit-tap-highlight-color: transparent;
+  @apply relative font-[Poppins];
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("/fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("/fonts/Poppins/Poppins-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("/fonts/Poppins/Poppins-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("/fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: 700;
+}
